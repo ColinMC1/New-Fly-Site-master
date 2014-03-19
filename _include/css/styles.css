@@ -8951,6 +8951,11 @@ blockquote small:before {
   .info-text {
     padding-right: 0; } }
 @media (min-width: 481px) and (max-width: 767px) {
+  #instagram-feed-photos img {
+    width: 40%;
+    display: inline-block;
+    padding: 5%; }
+
   #back-to-top {
     display: none !important; }
 
@@ -9324,5 +9329,8 @@ nav#menu #menu-nav li a {
   padding: 0px 20px 0px 20px; }
 
 .bottom_gap {
-  height: 100px;
+  background-color: #fff; }
+
+.instagram-box {
+  padding: 10px 0 20px 0;
   background-color: #fff; }
