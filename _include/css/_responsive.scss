@@ -400,6 +400,16 @@
 	.info-text {
 		padding-right: 0;	
 	}
+
+	.services-box.try-fly {
+		height: 295px;
+	}
+
+	.services-box.unlimited {
+		height: 345px;
+	}
+
+
 }
 
 @media (max-width: 320px) {
@@ -412,9 +422,7 @@
 		padding: 0px;
 	}
 	
-	#navigation-mobile li a {
-		padding: 20px 0;
-	}
+	
 	
 	.work-nav #filters li a {
 		font-size: 12px;
@@ -428,6 +436,8 @@
 		padding-top: 90px;
 		padding-bottom: 120px;	
 	}
+
+	
 }
 
 

@@ -9010,6 +9010,10 @@ nav#menu #menu-nav li a {
   padding: 10px 0 20px 0;
   background-color: #fff; }
 
+#navigation-mobile li a {
+  padding: 20px 0;
+  text-align: center; }
+
 @media (min-width: 768px) and (max-width: 979px) {
   .work-nav #filters li a {
     margin: 5px 0 5px 0; }
@@ -9326,16 +9330,19 @@ nav#menu #menu-nav li a {
     display: block; }
 
   .info-text {
-    padding-right: 0; } }
+    padding-right: 0; }
+
+  .services-box.try-fly {
+    height: 295px; }
+
+  .services-box.unlimited {
+    height: 345px; } }
 @media (max-width: 320px) {
   .work-nav #filters li a {
     margin: 3px 0 3px 0; }
 
   .page-description {
     padding: 0px; }
-
-  #navigation-mobile li a {
-    padding: 20px 0; }
 
   .work-nav #filters li a {
     font-size: 12px; }
